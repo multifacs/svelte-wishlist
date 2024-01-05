@@ -1,0 +1,22 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "description": "Первая хотелка",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 2,
+            "description": "Вторая хотелка",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 3,
+            "description": "Третья хотелка",
+            "completed": false,
+            "thonked": 0
+        }
+    ]
+}

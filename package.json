@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TodoMVC implemented in Svelte",
   "scripts": {
-    "copyfiles": "cp -r node_modules/todomvc-common public/todomvc-common",
+    "copyfiles": "xcopy .\\node_modules\\todomvc-common\\ .\\public\\todomvc-common\\",
     "build": "vite build",
     "dev": "vite dev",
     "deploy": "surge dist svelte-todomvc.surge.sh",

@@ -1,6 +1,9 @@
 <script>
 	import 'todomvc-app-css/index.css';
 	import { onMount } from 'svelte';
+	import jsonItems from './items.json'
+
+	console.log(jsonItems)
 
 	const ENTER_KEY = 13;
 	const ESCAPE_KEY = 27;
@@ -13,10 +16,12 @@
 	let editing = null;
 
 	try {
-		items = JSON.parse(localStorage.getItem('todos-svelte')) || [];
+		items = jsonItems.items;
 	} catch {
 		items = [];
 	}
+
+	console.log(items)
 
 	$: filtered =
 		currentFilter === 'all'
@@ -42,10 +47,6 @@
 		}
 	};
 
-	function clearCompleted() {
-		items = items.filter(active);
-	}
-
 	function remove(index) {
 		items = items.slice(0, index).concat(items.slice(index + 1));
 	}
@@ -63,7 +64,8 @@
 			items = items.concat({
 				id: crypto.randomUUID(),
 				description: event.target.value,
-				completed: false
+				completed: false,
+				thonked: 0
 			});
 			event.target.value = '';
 		}
@@ -84,10 +86,15 @@
 
 <svelte:window on:hashchange={updateView} />
 
-<header class="header">
-	<h1>todos</h1>
+<header class="header rounding">
+	<h1>Nikita's Birthday Wishlist</h1>
 	<!-- svelte-ignore a11y-autofocus -->
-	<input class="new-todo" on:keydown={createNew} placeholder="What needs to be done?" autofocus />
+	<input
+		class="new-todo rounding"
+		on:keydown={createNew}
+		placeholder="Все хотелки"
+		autofocus
+	/>
 </header>
 
 {#if items.length > 0}
@@ -108,7 +115,7 @@
 						<input class="toggle" type="checkbox" bind:checked={item.completed} />
 						<!-- svelte-ignore a11y-label-has-associated-control -->
 						<label on:dblclick={() => (editing = index)}>{item.description}</label>
-						<button on:click={() => remove(index)} class="destroy" />
+						<span class="destroy">{item.thonked}</span>
 					</div>
 
 					{#if editing === index}
@@ -143,10 +150,46 @@
 					<a class:selected={currentFilter === 'completed'} href="#/completed">Completed</a>
 				</li>
 			</ul>
-
-			{#if numCompleted}
-				<button class="clear-completed" on:click={clearCompleted}>Clear completed</button>
-			{/if}
 		</footer>
 	</section>
 {/if}
+
+<style>
+	h1 {
+		/* font-family: 'Courier New', Courier, monospace; */
+		font-size: 35pt;
+		top: -120px;
+		color: rgb(43, 174, 222);
+	}
+
+	.todo-list li .destroy {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 10px;
+		bottom: 0;
+		width: 40px;
+		height: 40px;
+		margin: auto 0;
+		font-size: 30px;
+		color: #949494;
+		transition: color 0.2s ease-out;
+	}
+
+	.todo-list li .destroy:hover,
+	.todo-list li .destroy:focus {
+		color: #c18585;
+	}
+
+	.todo-list li .destroy:after {
+		content: ' ';
+		display: block;
+		height: 100%;
+		line-height: 1.1;
+	}
+
+	.todo-list li:hover .destroy {
+		display: block;
+	}
+
+</style>
