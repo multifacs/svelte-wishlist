@@ -2,28 +2,28 @@
     "items": [
         {
             "id": 1,
-            "description": "Зарядка на несколько портов 😀",
+            "description": "Зарядка на несколько портов 🔌",
             "link": "https://www.ozon.ru/product/setevoe-zaryadnoe-ustroystvo-baseus-30w-bystraya-zaryadka-dlya-smartfona-adapter-pitaniya-blok-dlya-523521119",
             "completed": false,
             "thonked": 0
         },
         {
             "id": 2,
-            "description": "Штатив (какой-нибудь) 😀",
+            "description": "Штатив (какой-нибудь) 🎥",
             "link": "https://www.ozon.ru/product/shtativ-napolnyy-evolution-tm-3520e-815328158",
             "completed": false,
             "thonked": 0
         },
         {
             "id": 3,
-            "description": "Интересный кофе (ферментированный) или от Tasty Coffee 😀",
+            "description": "Интересный кофе (ферментированный) или от Tasty Coffee ☕",
             "link": "https://www.ozon.ru/seller/tasty-coffee-50771",
             "completed": false,
             "thonked": 0
         },
         {
             "id": 4,
-            "description": "Беспроводной микро 😀",
+            "description": "Беспроводной микро 🎙",
             "link": "https://www.ozon.ru/product/mikrofon-petlichnyy-trk8-chernyy-1261046477/",
             "completed": false,
             "thonked": 0
@@ -37,35 +37,49 @@
         },
         {
             "id": 6,
-            "description": "Спортивная балаклава (с волком?)",
+            "description": "Спортивная балаклава (с волком?) ⛷",
             "link": "",
             "completed": false,
             "thonked": 0
         },
         {
             "id": 7,
-            "description": "Что-нибудь вкусное от The Act",
+            "description": "Что-нибудь вкусное от The Act 🍨",
             "link": "https://www.ozon.ru/seller/the-act-36067",
             "completed": false,
             "thonked": 0
         },
         {
             "id": 8,
-            "description": "Тостер",
+            "description": "Тостер 🍞",
             "link": "",
             "completed": false,
             "thonked": 0
         },
         {
             "id": 9,
-            "description": "Миксер (который с двумя венчиками)",
+            "description": "Миксер (который с двумя венчиками) 🔪",
+            "link": "",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 10,
+            "description": "Книжка Ловушка счастья. Перестаем переживать - начинаем жить 📖",
+            "link": "https://www.ozon.ru/product/lovushka-schastya-perestaem-perezhivat-nachinaem-zhit-2-e-izdanie-dopolnennoe-i-pererabotannoe-646026255",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 11,
+            "description": "Новый повербанк ⚡",
             "link": "",
             "completed": false,
             "thonked": 0
         }
 
         
-
+        
         
     ]
 }

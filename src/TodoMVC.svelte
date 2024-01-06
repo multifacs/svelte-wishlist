@@ -3,8 +3,6 @@
 	import { onMount } from 'svelte';
 	import jsonItems from './items.json';
 
-	console.log(jsonItems);
-
 	const ENTER_KEY = 13;
 	const ESCAPE_KEY = 27;
 
@@ -37,6 +35,25 @@
 	} catch {
 		// noop
 	}
+
+	function shuffle(array) {
+		let currentIndex = array.length,
+			randomIndex;
+
+		// While there remain elements to shuffle.
+		while (currentIndex > 0) {
+			// Pick a remaining element.
+			randomIndex = Math.floor(Math.random() * currentIndex);
+			currentIndex--;
+
+			// And swap it with the current element.
+			[array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+		}
+
+		return array;
+	}
+
+	$: shuffle(filtered)
 
 	const updateView = () => {
 		currentFilter = 'all';
@@ -106,7 +123,7 @@
 						<!-- svelte-ignore a11y-label-has-associated-control -->
 						<label>{item.description}</label>
 						{#if item.link}
-						<span class="todo-link">Ссылка: <a href={item.link}>OZON</a></span>
+							<span class="todo-link">Ссылка: <a href={item.link}>OZON</a></span>
 						{/if}
 					</div>
 				</li>
@@ -152,8 +169,8 @@
 	}
 
 	.todo-list li {
-		font-family: 'Caveat', cursive;
-		font-size: 25pt;
+		font-family: 'Roboto Slab', serif;
+		font-size: 20pt;
 		height: auto;
 		font-weight: 300;
 	}
