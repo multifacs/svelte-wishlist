@@ -76,9 +76,29 @@
             "link": "",
             "completed": false,
             "thonked": 0
+        },
+        {
+            "id": 12,
+            "description": "Кольцевая лампа для селфи 💡",
+            "link": "",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 13,
+            "description": "Набор переводных татух с волками или хна для тату 🐺",
+            "link": "",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 14,
+            "description": "Тоник для волос типа такого или средство с силиконом для блеска 👱",
+            "link": "https://www.ozon.ru/product/proteinovyy-tonik-sprey-dlya-rosta-volos-r-plex-riche-nesmyvaemyy-uhod-za-volosami-1047487880",
+            "completed": false,
+            "thonked": 0
         }
 
-        
         
         
     ]

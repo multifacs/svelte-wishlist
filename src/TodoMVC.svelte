@@ -1,6 +1,24 @@
 <script>
 	import 'todomvc-app-css/index.css';
 	import { onMount } from 'svelte';
+
+	function shuffle(array) {
+		let currentIndex = array.length,
+			randomIndex;
+
+		// While there remain elements to shuffle.
+		while (currentIndex > 0) {
+			// Pick a remaining element.
+			randomIndex = Math.floor(Math.random() * currentIndex);
+			currentIndex--;
+
+			// And swap it with the current element.
+			[array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+		}
+
+		return array;
+	}
+
 	import jsonItems from './items.json';
 
 	const ENTER_KEY = 13;
@@ -15,6 +33,7 @@
 
 	try {
 		items = jsonItems.items;
+		shuffle(items)
 	} catch {
 		items = [];
 	}
@@ -36,24 +55,7 @@
 		// noop
 	}
 
-	function shuffle(array) {
-		let currentIndex = array.length,
-			randomIndex;
-
-		// While there remain elements to shuffle.
-		while (currentIndex > 0) {
-			// Pick a remaining element.
-			randomIndex = Math.floor(Math.random() * currentIndex);
-			currentIndex--;
-
-			// And swap it with the current element.
-			[array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
-		}
-
-		return array;
-	}
-
-	$: shuffle(filtered)
+	// $: shuffle(filtered)
 
 	const updateView = () => {
 		currentFilter = 'all';
@@ -111,6 +113,7 @@
 	<h4 class="new-todo-info">Н. Новгород, Казанское шоссе, 12к1</h4>
 	<h4 class="new-todo-info">Адрес после:</h4>
 	<h4 class="new-todo-info">Н. Новгород, Маршала Баграмяна, 1</h4>
+	<h4 class="new-todo-info">Размер 44-46, рост 177, люблю оверсайз</h4>
 </header>
 
 {#if items.length > 0}

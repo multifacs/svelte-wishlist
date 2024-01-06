@@ -6,8 +6,7 @@
     "copyfiles": "xcopy .\\node_modules\\todomvc-common\\ .\\public\\todomvc-common\\",
     "build": "vite build",
     "dev": "vite dev",
-    "deploy": "surge dist svelte-todomvc.surge.sh",
-    "predeploy": "npm run build",
+    "deploy": "deploy.sh",
     "start": "npm run build && vite preview"
   },
   "files": [
