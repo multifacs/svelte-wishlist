@@ -153,6 +153,48 @@
             "link": "https://aliexpress.ru/item/1005003969849988.html?sku_id=12000028107415236",
             "completed": false,
             "thonked": 0
-        } 
+        },
+        {
+            "id": 23,
+            "description": "Набор для выращивания кристаллов 🪄",
+            "link": "https://www.ozon.ru/product/nabor-dlya-opytov-karras-kristall-malyy-500ml-tsvet-sapfirovyy-nabor-dlya-eksperimentov-dlya-detey-744466661",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 24,
+            "description": "Коврик для мыши 🐻",
+            "link": "https://aliexpress.ru/item/1005006371093014.html?sku_id=12000036931435505",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 25,
+            "description": "Майка типа батя 👕",
+            "link": "",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 26,
+            "description": "Кружка с волком 🐺",
+            "link": "https://www.ozon.ru/product/kruzhka-luchshe-imet-teplo-volk-auf-806554763",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 27,
+            "description": "Гослинг в носке 👱",
+            "link": "https://www.ozon.ru/product/akrilovyy-brelok-rayan-gosling-v-noske-1305567959",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 28,
+            "description": "Гослинг Поебать 👱",
+            "link": "https://www.ozon.ru/product/kruzhka-rayan-gosling-mem-1282420164",
+            "completed": false,
+            "thonked": 0
+        }
     ]
 }
