@@ -209,6 +209,14 @@
             "link": "https://aliexpress.ru/item/1005003574667488.html?sku_id=12000026341871820",
             "completed": false,
             "thonked": 0
+        },
+        {
+            "id": 31,
+            "description": "Сводить меня поесть круассаны 🥐",
+            "link": "",
+            "completed": false,
+            "thonked": 0
         }
+        
     ]
 }
