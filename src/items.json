@@ -132,10 +132,27 @@
             "link": "https://www.ozon.ru/product/nabor-gelevyh-filtrov-dlya-fotovspyshki-tsvetnye-geli-rasseivateli-dlya-vspyshki-391443850",
             "completed": false,
             "thonked": 0
-        }
-        
-        
-        
-        
+        },
+        {
+            "id": 20,
+            "description": "Набор для вышивания 🐺",
+            "link": "https://www.ozon.ru/product/vyshivka-krestom-volk-nabor-dlya-vyshivaniya-s-kanvoy-40h50-sm-1050280165",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 21,
+            "description": "Браслет 🐺",
+            "link": "https://www.ozon.ru/product/braslet-golova-volka-1063771890",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 22,
+            "description": "Ловитель солнечного света 🌟",
+            "link": "https://aliexpress.ru/item/1005003969849988.html?sku_id=12000028107415236",
+            "completed": false,
+            "thonked": 0
+        } 
     ]
 }

@@ -129,7 +129,7 @@
 						<!-- svelte-ignore a11y-label-has-associated-control -->
 						<label>{item.description}</label>
 						{#if item.link}
-							<span class="todo-link">Ссылка: <a href={item.link}>{#if item.link.includes("ozon")}OZON{/if}{#if item.link.includes("dns")}DNS{/if}</a></span>
+							<span class="todo-link">Ссылка: <a href={item.link}>{#if item.link.includes("ozon")}OZON{/if}{#if item.link.includes("dns")}DNS{/if}{#if item.link.includes("aliex")}Aliexpress{/if}</a></span>
 						{/if}
 					</div>
 				</li>
