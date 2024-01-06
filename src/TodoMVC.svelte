@@ -33,7 +33,7 @@
 
 	try {
 		items = jsonItems.items;
-		shuffle(items)
+		shuffle(items);
 	} catch {
 		items = [];
 	}
@@ -114,6 +114,7 @@
 	<h4 class="new-todo-info">Адрес после:</h4>
 	<h4 class="new-todo-info">Н. Новгород, Маршала Баграмяна, 1</h4>
 	<h4 class="new-todo-info">Размер 44-46, рост 177, люблю оверсайз</h4>
+	<h4 class="new-todo-info red">Занимаем хотелки по этой ссытке: <a href="https://forms.gle/LvWhK1d6CSXDy8FD9">Тык</a></h4>
 </header>
 
 {#if items.length > 0}
@@ -183,5 +184,14 @@
 		font-size: 20pt;
 		font-weight: 300;
 		padding: 10px 10px 10px 10px;
+	}
+
+	.view {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.red {
+		color: red;
 	}
 </style>
