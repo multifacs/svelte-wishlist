@@ -215,7 +215,14 @@
             "description": "Сводить меня поесть круассаны 🥐",
             "link": "",
             "completed": false,
-            "thonked": 0
+            "thonked": 1
+        },
+        {
+            "id": 32,
+            "description": "По жопе ✋",
+            "link": "",
+            "completed": false,
+            "thonked": 1
         }
         
     ]
