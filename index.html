@@ -12,7 +12,7 @@
 		}
 
 		body {
-			background-image: url("src/wolf.jpg") !important;
+			background-image: url("/assets/wolf-d2d68ccf.jpg") !important;
 		}
 
 		.todoapp {
@@ -22,7 +22,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
-
+  <script type="module" crossorigin src="/assets/index-7d8d456f.js"></script>
+  <link rel="stylesheet" href="/assets/index-5806b4fd.css">
 </head>
 
 <body>
@@ -31,16 +32,6 @@
 		<p>Originally written by <a href="https://twitter.com/Rich_Harris">Rich Harris</a></p>
 		<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
 	</footer>
-
-	<script type="module">
-		import TodoMVC from './src/TodoMVC.svelte';
-		window.todomvc = new TodoMVC({
-			target: document.querySelector('.todoapp')
-		});
-	</script>
-
-	<script defer src="/todomvc-common/base.js"></script>
-	<link rel="stylesheet" href="/todomvc-common/base.css">
 </body>
 
 </html>
