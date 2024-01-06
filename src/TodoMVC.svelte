@@ -100,24 +100,15 @@
 	<section class="main">
 		<ul class="todo-list">
 			{#each filtered as item, index (item.id)}
-				<li class:completed={item.completed} class:editing={editing === index}>
+				<li class:completed={item.completed}>
 					<div class="view">
 						<input class="toggle" type="checkbox" bind:checked={item.completed} />
 						<!-- svelte-ignore a11y-label-has-associated-control -->
 						<label>{item.description}</label>
+						{#if item.link}
+						<span class="todo-link">Ссылка: <a href={item.link}>OZON</a></span>
+						{/if}
 					</div>
-
-					{#if editing === index}
-						<!-- svelte-ignore a11y-autofocus -->
-						<input
-							value={item.description}
-							id="edit"
-							class="edit"
-							on:keydown={handleEdit}
-							on:blur={submit}
-							autofocus
-						/>
-					{/if}
 				</li>
 			{/each}
 		</ul>
@@ -165,5 +156,12 @@
 		font-size: 25pt;
 		height: auto;
 		font-weight: 300;
+	}
+
+	.todo-list .todo-link {
+		font-family: 'Caveat', cursive;
+		font-size: 20pt;
+		font-weight: 300;
+		padding: 10px 10px 10px 10px;
 	}
 </style>
