@@ -118,8 +118,23 @@
             "link": "https://www.ozon.ru/product/taytsy-1013760920",
             "completed": false,
             "thonked": 0
+        },
+        {
+            "id": 18,
+            "description": "Умная лампочка 💡",
+            "link": "https://www.dns-shop.ru/product/c9b7e93ce6b31b80/umnaa-svetodiodnaa-lampa-tp-link-tapo-l530e1-pack-rgb/",
+            "completed": false,
+            "thonked": 0
+        },
+        {
+            "id": 19,
+            "description": "Набор гелевых фильтров для фотовспышки 💡",
+            "link": "https://www.ozon.ru/product/nabor-gelevyh-filtrov-dlya-fotovspyshki-tsvetnye-geli-rasseivateli-dlya-vspyshki-391443850",
+            "completed": false,
+            "thonked": 0
         }
-
+        
+        
         
         
     ]
