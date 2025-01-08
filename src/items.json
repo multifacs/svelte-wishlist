@@ -2,228 +2,463 @@
     "items": [
         {
             "id": 1,
-            "description": "Зарядка на несколько портов 🔌",
-            "link": "https://www.ozon.ru/product/setevoe-zaryadnoe-ustroystvo-baseus-30w-bystraya-zaryadka-dlya-smartfona-adapter-pitaniya-blok-dlya-523521119",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/fotogid-100-luchshih-ugolkov-mira-vzglyad-fotografa-uilson-kit-1416939312",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-p/wc1000/6917259589.jpg"
         },
         {
             "id": 2,
-            "description": "Штатив (какой-нибудь) 🎥",
-            "link": "https://www.ozon.ru/product/shtativ-napolnyy-evolution-tm-3520e-815328158",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/uchimsya-risovat-za-6-nedel-materialy-tehniki-idei-novoe-oformlenie-barber-barrington-964744532",
+            "img": "https://ir.ozone.ru/s3/multimedia-h/wc1000/6641436473.jpg"
         },
         {
             "id": 3,
-            "description": "Интересный кофе (ферментированный) или от Tasty Coffee ☕",
-            "link": "https://www.ozon.ru/seller/tasty-coffee-50771",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/axe-excite-dezodorant-muzhskoy-sprey-aromat-kokosa-i-chernogo-pertsa-zashchita-48-chasov-150-ml-1597190445",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-s/wc1000/7047071560.jpg"
         },
         {
             "id": 4,
-            "description": "Беспроводной микро 🎙",
-            "link": "https://www.ozon.ru/product/mikrofon-petlichnyy-trk8-chernyy-1261046477/",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/myshka-besprovodnaya-myshka-dlya-kompyutera-mysh-kompyuternaya-s-podsvetkoy-besshumnaya-1669135103/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-h/wc1000/7215141725.jpg"
         },
         {
             "id": 5,
-            "description": "Гирлянда для моих фоточек 😀",
-            "link": "https://www.ozon.ru/product/girlyanda-s-prishchepkami-dlya-foto-20-lamp-3-metra-pitanie-ot-porta-usb-521384538",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/zubnaya-pasta-sensodyne-sensodin-mgnovennyy-effekt-dlya-chuvstvitelnyh-zubov-s-ftorom-75ml-uhod-za-913918205/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-b/wc1000/6664339775.jpg"
         },
         {
             "id": 6,
-            "description": "Спортивная балаклава (с волком?) ⛷",
-            "link": "",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/remen-na-ruku-s-zatyazhkoy-dlya-fotoapparatov-canon-nikon-sony-olympus-fujifilm-pentax-1611569316/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-h/wc1000/7059212297.jpg"
         },
         {
             "id": 7,
-            "description": "Что-нибудь вкусное от The Act 🍨",
-            "link": "https://www.ozon.ru/seller/the-act-36067",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/razgruzka-dlya-fotoapparata-remen-dlya-foto-i-video-kamery-raftel-1292509812/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-h/wc1000/7137968453.jpg"
         },
         {
             "id": 8,
-            "description": "Тостер 🍞",
-            "link": "",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/kistevoy-remen-dlya-fotoapparatov-neoprenovyy-universalnyy-1739865544/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-f/wc1000/7177888635.jpg"
         },
         {
             "id": 9,
-            "description": "Миксер (который с двумя венчиками) 🔪",
-            "link": "",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/remen-bystrosemnyy-s-klipsami-dlya-fotoapparata-i-kamery-universalnyy-raftel-1674814965/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-p/wc1000/7127482417.jpg"
         },
         {
             "id": 10,
-            "description": "Книжка Ловушка счастья. Перестаем переживать - начинаем жить 📖",
-            "link": "https://www.ozon.ru/product/lovushka-schastya-perestaem-perezhivat-nachinaem-zhit-2-e-izdanie-dopolnennoe-i-pererabotannoe-646026255",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/shtativ-dlya-telefona-i-kamery-universalnyy-tripod-3110-teleskopicheskiy-ot-36-do-106-sm-1744969027/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-0/wc1000/7180126308.jpg"
         },
         {
             "id": 11,
-            "description": "Новый повербанк ⚡",
-            "link": "",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/parfums-plus-duhi-maslyanye-molekula-02-blek-afgano-inviktus-blu-sedakshen-belyy-krokodil-30-ml-765707918/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-q/wc1000/6917580350.jpg"
         },
         {
             "id": 12,
-            "description": "Кольцевая лампа для селфи 💡",
-            "link": "",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/sirop-barinoff-makadamiya-dlya-kofe-kokteyley-desertov-limonada-i-morozhenogo-1l-1130786439/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-q/wc1000/7226548334.jpg"
         },
         {
             "id": 13,
-            "description": "Набор переводных татух с волками или хна для тату 🐺",
-            "link": "",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/sirop-barinoff-vanil-dlya-kofe-kokteyley-desertov-limonada-i-morozhenogo-1l-190747859/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-l/wc1000/7226443785.jpg"
         },
         {
             "id": 14,
-            "description": "Тоник для волос типа такого или средство с силиконом для блеска 👱",
-            "link": "https://www.ozon.ru/product/proteinovyy-tonik-sprey-dlya-rosta-volos-r-plex-riche-nesmyvaemyy-uhod-za-volosami-1047487880",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/sirop-barinoff-lesnoy-oreh-dlya-kofe-kokteyley-desertov-limonada-i-morozhenogo-1l-190693180/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-y/wc1000/7226543590.jpg"
         },
         {
             "id": 15,
-            "description": "Фиксаторы для ножа для нарезки коржей 🔪",
-            "link": "https://www.ozon.ru/product/fiksator-nozha-dlya-narezaniya-narezki-korzhey-i-biskvita-2-sht-547590357",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/yaponskaya-zelenaya-matcha-premium-40-gramm-lycoris-1379726014/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-5/wc1000/7203511985.jpg"
         },
         {
             "id": 16,
-            "description": "Нож для нарезки коржей 🔪",
-            "link": "https://www.ozon.ru/product/kuhonnyy-nozh-borner-dlina-lezviya-20-sm-484763530",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/chay-listovoy-leaf-bliss-iz-12-vkusov-assorti-zelenyy-i-chernyy-podarok-muzhchine-na-den-1675603580/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-5/wc1000/7242840689.jpg"
         },
         {
             "id": 17,
-            "description": "Тайтсы 😳",
-            "link": "https://www.ozon.ru/product/taytsy-1013760920",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/molochnyy-ulun-chay-zelenyy-listovoy-chay-premium-500-g-1548739349/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-3/wc1000/7043001375.jpg"
         },
         {
             "id": 18,
-            "description": "Умная лампочка 💡",
-            "link": "https://www.dns-shop.ru/product/c9b7e93ce6b31b80/umnaa-svetodiodnaa-lampa-tp-link-tapo-l530e1-pack-rgb/",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/mysh-besprovodnaya-machenike-l7-arctic-belyy-1680678914/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-5/wc1000/7222445525.jpg"
         },
         {
             "id": 19,
-            "description": "Набор гелевых фильтров для фотовспышки 💡",
-            "link": "https://www.ozon.ru/product/nabor-gelevyh-filtrov-dlya-fotovspyshki-tsvetnye-geli-rasseivateli-dlya-vspyshki-391443850",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/fistashkovaya-pasta-bez-sahara-zelenyy-slon-100-g-1787795760/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-8/wc1000/7234421516.jpg"
         },
         {
             "id": 20,
-            "description": "Набор для вышивания 🐺",
-            "link": "https://www.ozon.ru/product/vyshivka-krestom-volk-nabor-dlya-vyshivaniya-s-kanvoy-40h50-sm-1050280165",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/drip-kofe-makbush-brazil-arabika-100-8-sht-po-11-g-molotyy-kofe-v-drip-paketah-1569079998/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-1/wc1000/7029727777.jpg"
         },
         {
             "id": 21,
-            "description": "Браслет 🐺",
-            "link": "https://www.ozon.ru/product/braslet-golova-volka-1063771890",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/drip-kofe-tasty-coffee-berri-10-sht-po-11-5-g-288435393/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-e/wc1000/7182246110.jpg"
         },
         {
             "id": 22,
-            "description": "Ловитель солнечного света 🌟",
-            "link": "https://aliexpress.ru/item/1005003969849988.html?sku_id=12000028107415236",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/drip-kofe-10-sht-miks-kolumbiya-i-braziliya-po-12-gr-utro-coffee-molotyy-kofe-v-drip-paketah-1617170239/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-2/wc1000/7210424162.jpg"
         },
         {
             "id": 23,
-            "description": "Набор для выращивания кристаллов 🪄",
-            "link": "https://www.ozon.ru/product/nabor-dlya-opytov-karras-kristall-malyy-500ml-tsvet-sapfirovyy-nabor-dlya-eksperimentov-dlya-detey-744466661",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/magnitnaya-fotobumaga-forceberg-a4-matovaya-10-listov-170199098/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-3/wc1000/6752165511.jpg"
         },
         {
             "id": 24,
-            "description": "Коврик для мыши 🐻",
-            "link": "https://aliexpress.ru/item/1005006371093014.html?sku_id=12000036931435505",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/maska-igra-v-kalmara-nabor-iz-4h-shtuk-1608690915/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-m/wc1000/7056800230.jpg"
         },
         {
             "id": 25,
-            "description": "Майка типа батя 👕",
-            "link": "",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/komplekt-termobele-1662191021/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-l/wc1000/7104257337.jpg"
         },
         {
             "id": 26,
-            "description": "Кружка с волком 🐺",
-            "link": "https://www.ozon.ru/product/kruzhka-luchshe-imet-teplo-volk-auf-806554763",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/komplekt-termobelya-mammothica-1123477522/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-p/wc1000/7216994569.jpg"
         },
         {
             "id": 27,
-            "description": "Гослинг в носке 👱",
-            "link": "https://www.ozon.ru/product/akrilovyy-brelok-rayan-gosling-v-noske-1305567959",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/povodok-dlya-sobak-krupnyh-porod-3-metra-1273687994/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-c/wc1000/7173403320.jpg"
         },
         {
             "id": 28,
-            "description": "Гослинг Поебать 👱",
-            "link": "https://www.ozon.ru/product/kruzhka-rayan-gosling-mem-1282420164",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/chipsy-nori-miks-vkusov-10-sht-h-3-g-1540689520/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-r/wc1000/7032005883.jpg"
         },
         {
             "id": 29,
-            "description": "Изотоник 💪",
-            "link": "https://www.ozon.ru/product/izotonik-rline-isotonic-sportivnyy-napitok-dlya-podderzhaniya-vodno-solevogo-balansa-vkus-yabloko-1191898715",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/oreo-pechene-vanil-12-sht-po-38-g-1006251151/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-v/wc1000/7196660515.jpg"
         },
         {
             "id": 30,
-            "description": "Маска Бахтинова для астрофото 🌠",
-            "link": "https://aliexpress.ru/item/1005003574667488.html?sku_id=12000026341871820",
-            "completed": false,
-            "thonked": 0
+            "link": "https://www.ozon.ru/product/glyukoznyy-sirop-konditerskiy-43-1100-g-dlya-karameli-glazuri-1440497805/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-q/wc1000/7191510830.jpg"
         },
         {
             "id": 31,
-            "description": "Сводить меня поесть круассаны 🥐",
-            "link": "",
-            "completed": false,
-            "thonked": 1
+            "link": "https://www.ozon.ru/product/elektrogirlyanda-interernaya-nit-svetodiodnaya-100-lamp-10-m-pitanie-ot-porta-usb-i-akkumulyatora-ot-1714331426/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-g/wc1000/7151025688.jpg"
         },
         {
             "id": 32,
-            "description": "По жопе ✋",
-            "link": "",
-            "completed": false,
-            "thonked": 1
+            "link": "https://www.ozon.ru/product/elektrogirlyanda-interernaya-nit-svetodiodnaya-100-lamp-10-m-pitanie-ot-porta-usb-1-sht-1724078052/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-0/wc1000/7158808908.jpg"
+        },
+        {
+            "id": 33,
+            "link": "https://www.ozon.ru/product/la-kri-shampun-penka-dlya-detey-s-0-let-dlya-nezhnoy-kozhi-flakon-150-ml-305502971/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-3/wc1000/7055901939.jpg"
+        },
+        {
+            "id": 34,
+            "link": "https://www.ozon.ru/product/nabor-populyarnyh-muzhskih-duhov-5-sht-1398660852/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-p/wc1000/6908415325.jpg"
+        },
+        {
+            "id": 35,
+            "link": "https://www.ozon.ru/product/nabor-dlya-volos-retsepty-babushki-agafi-shampun-balzam-obem-i-pyshnost-2-shtuki-h-350-ml-1233229312/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-q/wc1000/6795617462.jpg"
+        },
+        {
+            "id": 36,
+            "link": "https://www.ozon.ru/product/kreatin-monogidrat-200-gr-creatine-monohydrate-poroshok-sportivnoe-pitanie-dlya-nabora-massy-i-rosta-1550610162/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-4/wc1000/7004936920.jpg"
+        },
+        {
+            "id": 37,
+            "link": "https://www.ozon.ru/product/mixit-podarochnyy-nabor-dlya-litsa-ochishchayushchaya-maska-skrab-ohlazhdayushchaya-maska-ot-1702361745/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-1/wc1000/7196509189.jpg"
+        },
+        {
+            "id": 38,
+            "link": "https://www.ozon.ru/product/mixit-shampun-dlya-volos-i-balzam-konditsioner-vosstanavlivayushchie-professionalnyy-nabor-1162215244/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-g/wc1000/7248969736.jpg"
+        },
+        {
+            "id": 39,
+            "link": "https://www.ozon.ru/product/sheyker-dlya-sportivnogo-pitaniya-proteina-s-venchikom-i-setkoy-400-ml-vottler-297574045/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-q/wc1000/6789062474.jpg"
+        },
+        {
+            "id": 40,
+            "link": "https://www.ozon.ru/product/izotonik-rline-isotonic-yabloko-450-g-310119158/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-r/wc1000/6976870119.jpg"
+        },
+        {
+            "id": 41,
+            "link": "https://www.ozon.ru/product/protein-syvorotochnyy-supptrue-protein-solenaya-karamel-1000g-40-portsiy-632677070/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-8/wc1000/7147232360.jpg"
+        },
+        {
+            "id": 42,
+            "link": "https://www.ozon.ru/product/podarochnyy-nabor-siropov-fun-n-joy-home-barrista-dlya-kofe-shokolad-solenaya-karamel-amaretto-1600282097/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-o/wc1000/7133854344.jpg"
+        },
+        {
+            "id": 43,
+            "link": "https://www.ozon.ru/product/nabor-siropov-spoom-dlya-kofe-vanil-karamel-mindal-v-firmennoy-upakovke-3-sht-po-330-g-250-ml-3-sht-328235947/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-l/wc1000/7244358501.jpg"
+        },
+        {
+            "id": 44,
+            "link": "https://www.ozon.ru/product/nabor-siropov-spoom-dlya-kofe-kokos-lesnoy-oreh-solenaya-karamel-v-firmennoy-upakovke-3-sht-po-330-g-213535818/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-v/wc1000/7244352895.jpg"
+        },
+        {
+            "id": 45,
+            "link": "https://www.ozon.ru/product/sirop-bez-sahara-nizkokaloriynyy-chernoe-more-1-litr-597206284/?avtc=1&avte=4&avts=1736310629",
+            "img": "https://ir.ozone.ru/s3/multimedia-c/wc1000/6473515428.jpg"
+        },
+        {
+            "id": 46,
+            "link": "https://www.ozon.ru/product/sirop-barinoff-popkorn-dlya-kofe-kokteyley-desertov-limonada-i-morozhenogo-1l-1130783209/?avtc=1&avte=4&avts=1736310630",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-i/wc1000/7227321354.jpg"
+        },
+        {
+            "id": 47,
+            "link": "https://www.ozon.ru/product/le-santi-le-santi-krem-lipidovosstanavlivayushchiy-dlya-suhoy-i-chustvitelnoy-kozhi-564567850/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-z/wc1000/7160877719.jpg"
+        },
+        {
+            "id": 48,
+            "link": "https://www.ozon.ru/product/glitter-kandurin-pishchevoy-krasnoe-vino-fraktsiya-200-700-pm-pishchevaya-dobavka-krasitel-5-g-1616207278/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-w/wc1000/7063573352.jpg"
+        },
+        {
+            "id": 49,
+            "link": "https://www.ozon.ru/product/payalnik-60-vt-keramicheskiy-nagrevatel-mednye-zhala-1750806985/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-y/wc1000/7187113294.jpg"
+        },
+        {
+            "id": 50,
+            "link": "https://www.ozon.ru/product/2-tsvetnoe-plamya-dlya-kostra-i-kamina-magic-fire-colourful-flame-822991057/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-o/wc1000/6895468536.jpg"
+        },
+        {
+            "id": 51,
+            "link": "https://www.ozon.ru/product/zelenaya-lazernaya-ukazka-moshchnaya-simpleshop-na-akkumulyatore-s-nasadkami-1670122343/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-a/wc1000/7193009062.jpg"
+        },
+        {
+            "id": 52,
+            "link": "https://www.ozon.ru/product/ultrazvukovoy-datchik-dlya-izmereniya-rasstoyaniya-i-dvizheniya-hc-sr04-5v-dlya-arduino-942867025/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-y/wc1000/6878457322.jpg"
+        },
+        {
+            "id": 53,
+            "link": "https://www.ozon.ru/product/zhidkokristallicheskiy-simvolnyy-displey-1602-16h2-znaka-siniy-arduino-1401539279/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-y/wc1000/6903245806.jpg"
+        },
+        {
+            "id": 54,
+            "link": "https://www.ozon.ru/product/infrakrasnyy-datchik-obnaruzheniya-prepyatstviy-arduino-lm393-848776860/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-6/wc1000/6542196834.jpg"
+        },
+        {
+            "id": 55,
+            "link": "https://www.ozon.ru/product/nabor-provoda-peremychki-dupont-120-shtuk-20-sm-dlya-arduino-stm32-nodemcu-raspberry-pi-1335575211/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-m/wc1000/6857616946.jpg"
+        },
+        {
+            "id": 56,
+            "link": "https://www.ozon.ru/product/arduino-datchik-pulsa-i-urovnya-spo2-max30102-i2c-5-shtuk-1600585946/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-7/wc1000/6640829755.jpg"
+        },
+        {
+            "id": 57,
+            "link": "https://www.ozon.ru/product/modul-datchika-temperatury-i-vlazhnosti-ky-015-hw-507-dlya-arduino-1634861775/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-w/wc1000/7079432684.jpg"
+        },
+        {
+            "id": 58,
+            "link": "https://www.ozon.ru/product/modul-2-h-osevogo-dzhoystika-ky-023-hw-504-dlya-arduino-1633299329/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-1/wc1000/7079617549.jpg"
+        },
+        {
+            "id": 59,
+            "link": "https://www.ozon.ru/product/datchik-atmosfernogo-davleniya-temperatury-vlazhnosti-gy-bme280-dlya-arduino-5v-1303010996/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-d/wc1000/6838504465.jpg"
+        },
+        {
+            "id": 60,
+            "link": "https://www.ozon.ru/product/datchik-temperatury-tsifrovoy-termometr-ds18b20-germetichnyy-ip67-arduino-kabel-1-metr-1sht-1790086757/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-p/wc1000/7235042425.jpg"
+        },
+        {
+            "id": 61,
+            "link": "https://www.ozon.ru/product/plata-rasshireniya-arduino-nano-1318422462/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-6/wc1000/6847209438.jpg"
+        },
+        {
+            "id": 62,
+            "link": "https://www.ozon.ru/product/bespaechnaya-maketnaya-plata-arduino-breadboard-400-tochek-635861199/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-6/wc1000/6772055478.jpg"
+        },
+        {
+            "id": 63,
+            "link": "https://www.ozon.ru/product/lazernyy-modul-ky-008-dlya-arduino-1633045669/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-y/wc1000/7079354782.jpg"
+        },
+        {
+            "id": 64,
+            "link": "https://www.ozon.ru/product/1-sht-modul-gsmin-rc522-s-kartoy-i-brelokom-dlya-sredy-arduino-rfid-935149005/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-z/wc1000/6621505631.jpg"
+        },
+        {
+            "id": 65,
+            "link": "https://www.ozon.ru/product/kovrik-dlya-myshki-bolshoy-80-x-40-sm-873055633/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-q/wc1000/7227752498.jpg"
+        },
+        {
+            "id": 66,
+            "link": "https://www.ozon.ru/product/klavio-loson-dlya-nogtey-stimulyator-rosta-na-osnove-hitozana-s-vitaminami-fl-20ml-737527983/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-1/wc1000/6364823569.jpg"
+        },
+        {
+            "id": 67,
+            "link": "https://www.ozon.ru/product/klavio-loson-dlya-nogtey-zashchita-3v1-fl-20ml-743510559/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-i/wc1000/6334807470.jpg"
+        },
+        {
+            "id": 68,
+            "link": "https://www.ozon.ru/product/klavio-loson-dlya-zashchity-i-ukrepleniya-povrezhdennyh-nogtey-fl-20ml-729171232/?avtc=1&avte=4&avts=1736311122",
+            "img": "https://ir.ozone.ru/s3/multimedia-e/wc1000/6334798826.jpg"
+        },
+        {
+            "id": 69,
+            "link": "https://www.ozon.ru/product/klavio-loson-dlya-nogtey-vosstanavlivayushchiy-na-osnove-hitozana-fl-20ml-729329141/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-t/wc1000/6921621209.jpg"
+        },
+        {
+            "id": 70,
+            "link": "https://www.ozon.ru/product/kosmetichka-1538032529/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-4/wc1000/6993732640.jpg"
+        },
+        {
+            "id": 71,
+            "link": "https://www.ozon.ru/product/kakao-poroshok-naturalnyy-s-pertsem-rastvorimyy-napitok-225g-296709273/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-n/wc1000/7194785603.jpg"
+        },
+        {
+            "id": 72,
+            "link": "https://www.ozon.ru/product/duhi-muzhskie-nabor-probnikov-5-sht-30-ml-1757835346/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-x/wc1000/7197197577.jpg"
+        },
+        {
+            "id": 73,
+            "link": "https://www.ozon.ru/product/dakimakura-150sm-ot-geekmagazin-s-akterom-rayan-gosling-barbi-barbie-961788400/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-x/wc1000/6639060993.jpg"
+        },
+        {
+            "id": 74,
+            "link": "https://www.ozon.ru/product/paparico-melnitsa-dlya-spetsiy-ruchnaya-2-v-1-vertikal-mehanicheskaya-dvoynaya-pertsemolka-i-solonka-389810961/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-e/wc1000/6859992326.jpg"
+        },
+        {
+            "id": 75,
+            "link": "https://www.ozon.ru/product/build-house-polka-dlya-vannoy-komnaty-pryamaya-1-yarusnaya-1-sht-1631183987/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-f/wc1000/7059004359.jpg"
+        },
+        {
+            "id": 76,
+            "link": "https://www.ozon.ru/product/nabor-aromaticheskih-diffuzorov-tobacco-vanilla-i-tsvetok-hlopka-idealnyy-dekor-dlya-doma-1745303610/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-u/wc1000/7180496742.jpg"
+        },
+        {
+            "id": 77,
+            "link": "https://www.ozon.ru/product/homeets-forma-dlya-zapekaniya-pryamougolnaya-6-yach-14-sm-x-18-sm-1-sht-1543415868/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-y/wc1000/6998472970.jpg"
+        },
+        {
+            "id": 78,
+            "link": "https://www.ozon.ru/product/menazhnitsa-derevyannaya-servirovochnaya-doska-iz-dereva-dlya-kuhni-731809985/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-s/wc1000/7184011924.jpg"
+        },
+        {
+            "id": 79,
+            "link": "https://www.ozon.ru/product/nabor-iz-3-prozrachnyh-sousnikov-po-375-ml-1193197635/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-o/wc1000/6770632668.jpg"
+        },
+        {
+            "id": 80,
+            "link": "https://www.ozon.ru/product/gazirovannye-napitki-assorti-limonadov-bez-sahara-lemonardo-330ml-6sht-842462727/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-4/wc1000/6545538028.jpg"
+        },
+        {
+            "id": 81,
+            "link": "https://www.ozon.ru/product/barer-byuti-filtr-dlya-dusha-zashchita-ot-hlora-728911681/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-b/wc1000/7228215011.jpg"
+        },
+        {
+            "id": 82,
+            "link": "https://www.ozon.ru/product/spetsii-i-pripravy-kooh-iz-16-vkusov-dlya-kuritsy-i-ryby-plova-i-kartofelya-universalnye-podarok-913970638/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-a/wc1000/7236817354.jpg"
+        },
+        {
+            "id": 83,
+            "link": "https://www.ozon.ru/product/eskin-touch-skrab-dlya-tela-antitsellyulitnyy-solyanoy-s-naturalnymi-maslami-i-aromatom-lavandy-625244022/?advert=ACYBoF3hTN0V4kGEeMWKmbjwdNs72qc-bL0ExTjYPJsfpdiE7FWIPGM4REaY9lwd1VyN0VDMmQ_WGZpiS-mkpBkqikuUPs433CR2Do_Aau8_OQqd80NgoPxoJu1EqHMFpeNhLFb70SwvpJ_W5ECeEVWMBe6NMx0gPnV94w&avtc=1&avte=4&avts=1736312331",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-z/wc1000/7051720607.jpg"
+        },
+        {
+            "id": 84,
+            "link": "https://www.ozon.ru/product/riche-skrab-dlya-tela-antitsellyulitnyy-otshelushivayushchiy-latte-cacao-s-orehovymi-maslami-242785392/?avtc=1&avte=4&avts=1736311170",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-6/wc1000/7050069150.jpg"
+        },
+        {
+            "id": 85,
+            "link": "https://www.ozon.ru/product/komplekt-noskov-noski-i-sorochka-10-par-1418182045/?avtc=1&avte=4&avts=1736312307",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-4/wc1000/6918477268.jpg"
+        },
+        {
+            "id": 86,
+            "link": "https://www.ozon.ru/product/kismit-beauty-holodnoe-antitsellyulitnoe-obertyvanie-dlya-pohudeniya-protiv-rastyazhek-i-otekov-184143782/?avtc=1&avte=4&avts=1736312307",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-6/wc1000/7074102282.jpg"
+        },
+        {
+            "id": 87,
+            "link": "https://www.ozon.ru/product/noski-mystery-bubble-5-par-1271954633/?avtc=1&avte=4&avts=1736312307",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-s/wc1000/7030138168.jpg"
+        },
+        {
+            "id": 88,
+            "link": "https://www.ozon.ru/product/riche-syvorotka-dlya-kontura-glaz-omolazhivayushchaya-eye-ampoule-uvlazhnyayushchee-sredstvo-1036630030/?avtc=1&avte=4&avts=1736312307",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-u/wc1000/7122637038.jpg"
+        },
+        {
+            "id": 89,
+            "link": "https://www.ozon.ru/product/skrab-dlya-tela-saharnyy-antitsellyulitnyy-s-vishney-1581397276/?avtc=1&avte=4&avts=1736312307",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-a/wc1000/7246084546.jpg"
+        },
+        {
+            "id": 90,
+            "link": "https://www.ozon.ru/product/riche-enzimnyy-antitsellyulitnyy-skrab-dlya-tela-mango-ananas-razglazhivayushchiy-rastyazhki-242807269/?avtc=1&avte=4&avts=1736312307",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-w/wc1000/7050168752.jpg"
+        },
+        {
+            "id": 91,
+            "link": "https://www.ozon.ru/product/riche-holodnoe-antitsellyulitnoe-obertyvanie-frozen-berry-dlya-pohudeniya-257872528/?avtc=1&avte=4&avts=1736312307",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-8/wc1000/7050172292.jpg"
+        },
+        {
+            "id": 92,
+            "link": "https://www.ozon.ru/product/energeticheskiy-napitok-monster-energy-ultra-white-zh-b-6-sht-h-330-ml-kitay-1725085832/?avtc=1&avte=4&avts=1736312981",
+            "img": "https://ir.ozone.ru/s3/multimedia-1-v/wc1000/7212486847.jpg"
         }
-        
     ]
 }

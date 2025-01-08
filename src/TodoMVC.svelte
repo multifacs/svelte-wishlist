@@ -21,15 +21,10 @@
 
 	import jsonItems from './items.json';
 
-	const ENTER_KEY = 13;
-	const ESCAPE_KEY = 27;
-
-	const active = (item) => !item.completed;
-	const completed = (item) => item.completed;
-
 	let currentFilter = 'all';
 	let items = [];
-	let editing = null;
+	let displayedItems = [];
+	let usedIndices = new Set();
 
 	try {
 		items = jsonItems.items;
@@ -37,17 +32,6 @@
 	} catch {
 		items = [];
 	}
-
-	console.log(items);
-
-	$: filtered =
-		currentFilter === 'all'
-			? items
-			: items.filter(currentFilter === 'completed' ? completed : active);
-
-	$: numActive = items.filter(active).length;
-
-	$: numCompleted = items.filter(completed).length;
 
 	$: try {
 		localStorage.setItem('todos-svelte', JSON.stringify(items));
@@ -66,41 +50,36 @@
 		}
 	};
 
-	function remove(index) {
-		items = items.slice(0, index).concat(items.slice(index + 1));
+	// Добавляем функцию для генерации случайной высоты
+	function getRandomHeight() {
+		return Math.floor(Math.random() * 30) - 50; // случайное смещение от -50 до +50 пикселей
 	}
 
-	function toggleAll(event) {
-		items = items.map((item) => ({
-			id: item.id,
-			description: item.description,
-			completed: event.target.checked
-		}));
-	}
+    function getRandomItem() {
+        if (usedIndices.size >= items.length) {
+            usedIndices.clear(); // Сбрасываем, если все товары были показаны
+        }
 
-	function createNew(event) {
-		if (event.which === ENTER_KEY) {
-			items = items.concat({
-				id: crypto.randomUUID(),
-				description: event.target.value,
-				completed: false,
-				thonked: 0
-			});
-			event.target.value = '';
-		}
-	}
+        let availableIndices = Array.from(Array(items.length).keys())
+            .filter(index => !usedIndices.has(index));
+        
+        let randomIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)];
+        usedIndices.add(randomIndex);
+        
+        return items[randomIndex];
+    }
 
-	function handleEdit(event) {
-		if (event.which === ENTER_KEY) event.target.blur();
-		else if (event.which === ESCAPE_KEY) editing = null;
-	}
+    // Заполняем массив случайными товарами
+    function refreshDisplayedItems() {
+        displayedItems = Array(items.length).fill(null)
+            .map(() => getRandomItem());
+    }
 
-	function submit(event) {
-		items[editing].description = event.target.value;
-		editing = null;
-	}
+    onMount(() => {
+        refreshDisplayedItems();
+    });
 
-	onMount(updateView);
+    $: itemOffsets = displayedItems.map(() => getRandomHeight());
 </script>
 
 <svelte:window on:hashchange={updateView} />
@@ -108,42 +87,43 @@
 <header class="header rounding">
 	<h1>Nikita's Birthday Wishlist</h1>
 	<!-- svelte-ignore a11y-autofocus -->
-	<h3 class="new-todo">🤩 Все хотелки 🤩</h3>
-	<h4 class="new-todo-info">Актуальный адрес до 11-го числа (пункт выдачи):</h4>
-	<h4 class="new-todo-info">📦 Н. Новгород, Казанское шоссе, 12к1 📦</h4>
-	<h4 class="new-todo-info">Адрес после:</h4>
-	<h4 class="new-todo-info">📦 Н. Новгород, Маршала Баграмяна, 1 📦</h4>
-	<h4 class="new-todo-info">👕 Размер 44-46, рост 177, люблю оверсайз 👖</h4>
-	<h4 class="new-todo-info red">Занимаем хотелки по этой ссылке: <a href="https://forms.gle/LvWhK1d6CSXDy8FD9">Тык</a></h4>
-	<h4 class="new-todo-info">Занятые хотелки: <a href="https://docs.google.com/spreadsheets/d/193qHoOj04wVhnADmSxcFwCZu78GI69yeCMUkWFvqE4c/edit?usp=sharing">Тык</a></h4>
-
+	<h3 class="new-todo">🤩 Квест 🤩</h3>
+	<h4 class="new-todo-info">Всем привет!</h4>
+	<h4 class="new-todo-info">На свой ДР я захотел устроить для себя небольшой квест,</h4>
+	<h4 class="new-todo-info">в котором организаторами будете непосредственно вы.</h4>
+	<h4 class="new-todo-info">Ближайшие пару недель я буду в Питере и хочу</h4>
+	<h4 class="new-todo-info">посетить самые разные его уголки, а может даже</h4>
+	<h4 class="new-todo-info">и его окрестности (Выборг, Пушкин).</h4>
+	<h4 class="new-todo-info">Для этого вы можете заказать мне подарочек</h4>
+	<h4 class="new-todo-info">в любой пункт выдачи Озона, а я доберусь до него</h4>
+	<h4 class="new-todo-info">и сделаю селфи в этом месте, когда подарочек заберу.</h4>
+	<h4 class="new-todo-info">На этой странице список штук, которые я хочу,</h4>
+	<h4 class="new-todo-info">но я буду рад совершенно любой мелочи (особенно с волками).</h4>
+	<h4 class="new-todo-info">Надеюсь, из этого выйдет интересное приключение.</h4>
+	<h4 class="new-todo-info">Чтобы прислать код для получения,</h4>
+	<h4 class="new-todo-info">можно написать мне в тг: <a href="https://t.me/MultiFaCs">@MultiFaCs</a></h4>
+	<h4 class="new-todo-info">&lt;3</h4>
 </header>
 
-{#if items.length > 0}
-	<section class="main">
-		<ul class="todo-list">
-			{#each filtered as item, index (item.id)}
-				<li class:completed={item.completed}>
-					<div class="view">
-						<input class="toggle" type="checkbox" bind:checked={item.completed} />
-						<!-- svelte-ignore a11y-label-has-associated-control -->
-						<label>{item.description}</label>
-						{#if item.link}
-							<span class="todo-link">Ссылка: <a href={item.link}>{#if item.link.includes("ozon")}OZON{/if}{#if item.link.includes("dns")}DNS{/if}{#if item.link.includes("aliex")}Aliexpress{/if}</a></span>
-						{/if}
-					</div>
-				</li>
-			{/each}
-		</ul>
-
-		<footer class="footer">
-			<span class="todo-count">
-				<strong>{numActive}</strong>
-				{numActive === 1 ? 'хотелка' : 'хотелок'} осталось (нажатия (пока) мне ничего не отправляют)
-			</span>
-		</footer>
-	</section>
-{/if}
+<section class="gifts-container">
+    {#each items as item, index (item.id)}
+        <div 
+            class="gift-card"
+            style="transform: translateY({itemOffsets[index]}px)"
+        >
+            <div class="gift-content">
+                <div class="gift-image">
+                    <img src={item.img} alt="Gift preview" />
+                </div>
+                <div class="gift-link">
+                    <a href={item.link} target="_blank" rel="noopener noreferrer" class="new-todo-info">
+                        Ссылка
+                    </a>
+                </div>
+            </div>
+        </div>
+    {/each}
+</section>
 
 <style>
 	h1 {
@@ -174,26 +154,72 @@
 		margin: 10px 10px;
 	}
 
-	.todo-list li {
-		font-family: 'Roboto Slab', serif;
-		font-size: 20pt;
-		height: auto;
-		font-weight: 300;
-	}
+    .gifts-container {
+        width: 666px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 50px 0px;
+    }
 
-	.todo-list .todo-link {
-		font-family: 'Caveat', cursive;
-		font-size: 20pt;
-		font-weight: 300;
-		padding: 0px 15px 15px 60px
-	}
+    .gift-card {
+        width: calc(666px / 3 - 20px);
+        height: 300px;
+        margin-bottom: 20px;
+        transition: all 0.3s ease;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
 
-	.view {
-		display: flex;
-		flex-direction: column;
-	}
+    .gift-card:hover {
+        transform: translateY(calc(var(--random-offset) - 10px)) scale(1.05);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
 
-	.red {
-		color: red;
-	}
+    .gift-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gift-image {
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .gift-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .gift-link {
+        padding: 15px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.9);
+    }
+
+    .gift-link a {
+        color: #005bff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .gift-link a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+        .gifts-container {
+            width: 95%;
+        }
+
+        .gift-card {
+            width: calc(100% - 20px);
+        }
+    }
 </style>
