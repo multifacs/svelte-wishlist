@@ -212,14 +212,4 @@
     .gift-link a:hover {
         text-decoration: underline;
     }
-
-    @media (max-width: 700px) {
-        .gifts-container {
-            width: 95%;
-        }
-
-        .gift-card {
-            width: calc(100% - 20px);
-        }
-    }
 </style>
